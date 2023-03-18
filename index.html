@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://d.zhenchu.vip/z8.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no"> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>宣传页面</title>
+<link href="layer.css" type="text/css" rel="styleSheet" id="layermcss"><link href="layer.htm" type="text/css" rel="styleSheet" id="layermcss"><link href="layer(1).css" type="text/css" rel="styleSheet" id="layermcss"></head>
+<body style="margin:0px;">
+
+
+<style>
+	.tip{background-color:rgba(0,0,0,0.6);width:100%;height:40px;line-height:40px;}
+	.tip-text{display:inline-block;position:absolute;left:40px;line-height:40px;color:#09BB07;font-size:15px;}
+</style>
+<div class="tip">
+<span style="line-height:53px;margin-left:8px;"><svg t="1565407263613" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2984" width="25" height="25"><path d="M862.435556 200.248889h-34.133334s-79.644444-2.275556-159.288889-34.133333c-81.92-34.133333-136.533333-72.817778-136.533333-72.817778l-20.48-15.928889-20.48 13.653333s-54.613333 38.684444-136.533333 72.817778c-79.644444 34.133333-159.288889 34.133333-159.288889 34.133333H161.564444v359.537778c0 179.768889 227.555556 370.915556 350.435556 370.915556s350.435556-191.146667 350.435556-370.915556V200.248889z m-100.124445 159.288889L509.724444 614.4c-6.826667 6.826667-15.928889 9.102222-25.031111 9.102222-6.826667 0-15.928889-2.275556-20.48-6.826666l-170.666666-136.533334c-13.653333-11.377778-18.204444-34.133333-4.551111-47.786666 11.377778-13.653333 34.133333-18.204444 47.786666-4.551112l147.911111 118.328889 232.106667-232.106666c13.653333-13.653333 34.133333-13.653333 47.786667 0s11.377778 31.857778-2.275556 45.511111z" fill="#09BB07" p-id="2985"></path></svg></span>
+    <div class="tip-text">此内容已通过微信安全认证</div>
+</div>
+
+<div id="wxCode_fuzhi" style="display: block;">
+<div class="bton" id="copytxt" style="width: 85%;margin: 0 8% 2.5%;background-color: #F2F2F2;line-height: 2.3em;overflow: hidden;margin-top: 10px;">我给你推荐一个活动
+新百伦四季男女爆款运动鞋
+原价668现在仅需99.9元
+厂家直销。让利大众。限时秒杀。
+名额有限。全国包邮。支持七天无理由。
+点击小程序购买👇👇👇
+官方商城：#小程序://快团团/PHm3s40aWyZZ7Tn
+</div>
+		<div class="bton" style="width: 60%;position: relative;display: block;width: 184px;margin-left: auto;margin-right: auto;padding: 8px 24px;box-sizing: border-box;font-weight: 700;font-size: 17px;text-align: center;text-decoration: none;color: #fff;line-height: 1.41176471;border-radius: 4px;overflow: hidden;-webkit-tap-highlight-color: rgba(0,0,0,0);background-color: #07c160;">一键复制</div>
+</div>
+
+
+<div style="width: 90%;margin-left: 5%;height: auto;margin-top: 1.3rem;margin-bottom: 1rem;text-align: center;">
+<img style="width: 100%;height: auto;border-radius: 10px;box-shadow: 0 0 10px #CCCCCC;" src="1.jpg">
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="clipboard.min.js" type="text/javascript"></script>
+<script src="layer.js"></script>
+<script>
+	var clipboard = new ClipboardJS('.bton', {
+			text: function() {
+				return $("#copytxt").html();
+			}
+		});
+		clipboard.on('success',
+			function(e) {
+				//alert('复制成功');
+				layer.open({content: '复制成功',skin: 'msg',time: 1 });
+			});
+</script>
+
+
+
+
+</body></html>
